@@ -1,0 +1,58 @@
+*{ 
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+
+body{
+  text-align: center;
+  padding-top: 200px;
+  background-image: url(https://i.ibb.co/DG4mQnq/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+font-family: 'Cinzel', serif;
+
+
+  height: 100vh;
+}
+
+h1 span{
+  color: #DB2777;
+}
+h1{
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+
+}
+
+p{
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 72px;
+  font-family: 'Inter', sans-serif;
+  opacity: 0.9;
+}
+
+a{
+
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 32px;
+    color: black;
+}
+
+a:hover,
+.btn-primary {
+  text-decoration: none;
+  color:white;
+  background-color: #DB2777;
+  border-radius: 80px;
+}
